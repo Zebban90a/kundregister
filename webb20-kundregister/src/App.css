@@ -1,0 +1,128 @@
+.loginFormDiv {
+  border: solid #e2d6d6 1px;
+  width: 400px;
+  margin: auto;
+  margin-top: 1.6rem;
+}
+
+.loginForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: blue solid;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.navigation .home {
+  padding: 1.6rem;
+}
+
+.navigation .listme {
+  padding: 0.8rem;
+  border: solid black 1px;
+  margin-top: 0.8rem;
+}
+
+.customlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin: auto;
+  width: 70%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.customlist .customers {
+  border-bottom: solid gray;
+  margin-top: 2rem;
+}
+
+.customerRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 1.6rem;
+}
+
+.customerRow .listMe {
+  border: black solid 1px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.customerRow .customerCreate {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.customerForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-top: 1.6rem;
+}
+
+.customerHeader {
+  margin: auto;
+  width: 500px;
+  margin-top: 1.6rem;
+}
+
+.customerdetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 600px;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  margin-top: 1.6rem;
+}
+
+.customerdetail .buttons {
+  margin-top: 1.6rem;
+}
+/*# sourceMappingURL=App.css.map */

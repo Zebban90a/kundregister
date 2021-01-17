@@ -1,0 +1,13 @@
+.customerdetail {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  align-content: space-between;
+  margin-top: 1.6rem;
+
+  .buttons {
+    margin-top: 1.6rem;
+  }
+}

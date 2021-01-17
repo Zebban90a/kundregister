@@ -1,0 +1,26 @@
+.customlist {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: auto;
+  width: 70%;
+  flex-wrap: wrap;
+
+  .customers {
+    border-bottom: solid gray;
+    margin-top: 2rem;
+  }
+}
+
+.customerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1.6rem;
+  .listMe {
+    border: black solid 1px;
+    width: fit-content;
+  }
+  .customerCreate {
+    width: fit-content;
+  }
+}

@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  border-bottom: blue solid;
+  justify-content: space-evenly;
+
+  .home {
+    padding: 1.6rem;
+  }
+  .listme {
+    padding: 0.8rem;
+    border: solid black 1px;
+    margin-top: 0.8rem;
+  }
+}
